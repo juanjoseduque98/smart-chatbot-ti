@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+	"Hola",
+	"buenos días",
+	"buenas tardes",
+	"qué tal",
+	"hey",
+	"buenas",
+	"oe",
+	"hola buenos días",
+	"hola buenas tardes",
+	"hola cómo estas",
+	"hola que tal",
+	"hello",
+	"hi"
+      ],
+      "responses": [
+	"Hola, espero que estés bien, dime ¿en qué puedo ayudarte hoy?",
+	"¡Hola! ¿Necesitas algo? aquí estoy para ayudar",
+	"¡Saludos! ¿Cómo puedo asistirte hoy?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+	"Chao",
+	"Adiós",
+	"Nos vemos",
+	"Hasta luego",
+	"eso es todo",
+	"me retiro",
+	"hasta la proxima",
+	"hablamos después",
+	"hasta pronto",
+	"bye, gracias",
+	"good bye",
+	"bye"
+      ],
+      "responses": [
+	"¡Gracias por contactarnos!, nos vemos luego.",
+	"Gracias por comunicarte, ¡que tengas un buen día!",
+	"Hasta la próxima",
+	"Adiós, cuídate.",
+	"Nos vemos, cualquier cosa aquí estamos.",
+	"Que estés muy bien, cuídate"
+      ]
+    },
+    {
+      "tag": "horarios",
+      "patterns": [
+	"cual es el horario?",
+	"a qué hora abren?",
+	"horario de atención",
+	"qué horario tienen?",
+	"Horario",
+	"horario",
+	"qué dias atienden?",
+	"hasta qué hora trabajan?",
+	"trabajan en la noche?",
+	"me puedes decir los horarios?",
+  	"quisiera saber el horario de atención",
+	"a qué horas están disponibles?",
+  	"necesito saber si están abiertos ahora",
+  	"deseo conocer el horario de atención",
+  	"sus horarios por favor"
+      ],
+      "responses": [
+	"Nuestro horario de atención es de lunes a viernes de 7:00 a.m. a 4:00 p.m.",
+	"Estamos disponibles de lunes a viernes de 7:00 a.m. a 4:00 p.m. No operamos fines de semana.",
+	"Puedes contactarnos de 7 a.m. a 4 p.m. en días hábiles."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+	"gracias",
+	"muchas gracias",
+	"te agradezco",
+	"muy amable, gracias",
+	"muy amable",
+	"super, gracias",
+	"super",
+	"mil gracias",
+	"gracias por la información",
+	"gracias por la atención",
+	"excelente servicio",
+	"que buen servicio",
+	"Dios te pague",
+	"excelente gracias",
+	"listo, muchas gracias",
+	"listo gracias",
+	"gracias por la ayuda",
+	"gracias por la colaboracion",
+	"gracias por ayudarme"
+      ],
+      "responses": [
+	"Siempre es un placer poder ayudarte",
+	"Con todo gusto, nos vemos pronto",
+	"Me alegra haber podido ayudar, hasta una proxima ocasión",
+	"Que gusto haber podido ayudar, para eso estamos"
+      ]
+    },
+    {
+      "tag": "problemas_tecnicos",
+      "patterns": [
+        "no me funciona el sistema",
+        "tengo problemas con la plataforma",
+        "no puedo acceder",
+	"la plataforma no sirve",
+        "la página está caída",
+        "el sistema está lento",
+        "error al iniciar sesión",
+        "no carga el sistema",
+        "tengo un problema técnico",
+        "el sistema da error",
+        "me sale un mensaje de error",
+	"tengo un problema con mi equipo",
+	"tengo un problema",
+	"hola tengo un problema",
+	"hola tengo un error",
+	"ayudame con algo",
+	"me puedes ayudar?",
+	"puedes ayudarme?",
+	"puedes ayudarme con algo",
+	"necesito un favor",
+	"un favor",
+	"hola, necesito ayuda",
+	"necesito ayuda",
+	"ayuda"
+      ],
+      "responses": [
+        "Lamentamos el inconveniente. ¿Podrías darme más detalles del error?",
+        "Vamos a ayudarte. ¿Qué mensaje de error te aparece?",
+	"Claro! Dime en qué puedo ayudarte?",
+	"Claro que si! Dime qué necesitas.",
+	"Estoy aquí para ayudar, dime",
+        "Gracias por reportar el error. Estamos revisando el sistema."
+      ]
+    }
+  ]
+}
